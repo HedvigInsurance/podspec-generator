@@ -2,7 +2,7 @@
 Automatic podspec generator based on a module's package.json, for React Native modules on iOS.
 
 ## Install 
-`npm install -g podspec-generator` 
+`npm install -g @hedviginsurance/podspec-generator` 
 
 ## Usage
 `podspec-generator path/to/module`
@@ -14,6 +14,8 @@ Automatic podspec generator based on a module's package.json, for React Native m
 `source_files`: Set source folder. Defaults to `ios`
 
 `dry`: Perform a dry-run and log output (don't generate the file)
+
+`dependencies`: Add `s.dependency` to the generated podspec, split with `,` to add multiple.
 
 Example:
 

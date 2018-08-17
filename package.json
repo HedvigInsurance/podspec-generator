@@ -1,18 +1,18 @@
 {
-  "name": "podspec-generator",
-  "version": "0.2.2",
+  "name": "@hedviginsurance/podspec-generator",
+  "version": "0.2.3",
   "description": "Automatic Podfile generator based on a module's package.json, for React Native modules on iOS.",
   "main": "./lib/index.js",
   "preferGlobal": "true",
   "bin": {
-    "podspec-generator": "bin/index.js"
+    "@hedviginsurance/podspec-generator": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/adamski/podspec-generator.git"
+    "url": "git+ssh://git@github.com/hedviginsurance/podspec-generator.git"
   },
   "keywords": [
     "cocoapods",
@@ -23,9 +23,9 @@
   "author": "Adam Wilson",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/adamski/podspec-generator/issues"
+    "url": "https://github.com/hedviginsurance/podspec-generator/issues"
   },
-  "homepage": "https://github.com/adamski/podspec-generator#readme",
+  "homepage": "https://github.com/hedviginsurance/podspec-generator#readme",
   "dependencies": {
     "camelcase": "^3.0.0",
     "change-case": "^3.0.0",
